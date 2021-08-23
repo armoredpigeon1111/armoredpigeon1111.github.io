@@ -14,7 +14,13 @@ figure{
     float:left;
 }
 
+h2{
+    text-align:center;
+}
 
+figcaption{
+    text-align: center;
+}
 
 /*Classes*/
 
@@ -39,11 +45,11 @@ figure{
     clear:left;
 }
 
-
+/*
 .portfolioPics {
     text-align:center;
-    padding: 15px;
-}
+    
+}*/
 
 
 
@@ -54,16 +60,6 @@ figure{
     padding:15px;
 }
 
-/*
-#me {
-    float:left;
-}*/
-
-/*
-#mainHeader {
-    background-image: url('images/whiteMesh.jpg');
-    
-}*/
 
 #contact{
     clear:left;
