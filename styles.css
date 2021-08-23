@@ -22,6 +22,10 @@ figcaption{
     text-align: center;
 }
 
+table{
+    text-align: left;
+}
+
 /*Classes*/
 
 .navbar {
