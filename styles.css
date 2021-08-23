@@ -11,16 +11,20 @@ div{
 }
 
 figure{
-
     float:left;
+    
 }
 
-h2{
-    text-align:center;
+figure img{
+    border-radius: 25px;
 }
 
 figcaption{
     text-align: center;
+}
+
+h2{
+    text-align:center;
 }
 
 table{
@@ -60,9 +64,17 @@ table{
 
 
 /*ID's*/
+#aboutMe{
+    background-image: url('images/marble.jpg');
+    border-radius: 25px;
+    padding: 25px;
+    margin:15px;
+}
 
 #aboutMe p{
-    width:400px;
+    
+    width:600px;
+    font-weight: 600;
     
 }
 
@@ -74,11 +86,23 @@ table{
     background-image: url('images/blueGreenGradient.jpg');
     color:white;
     border-radius: 25px;
+    margin:15px;
 }
 
 #mainHeading {
     float:left;
     padding-left: 15px;
+}
+
+#projects{
+    background-image: url('images/blueGreenGradient.jpg');  
+    border-radius: 25px;
+    margin:15px;
+    
+}
+
+#projects h1{
+    color:white;
 }
 
 #titlebar{
@@ -88,7 +112,7 @@ table{
 
 /*For small screens*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     #aboutMe p{
         width:auto;
     }
