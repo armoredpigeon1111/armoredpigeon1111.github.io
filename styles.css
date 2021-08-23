@@ -30,7 +30,7 @@ table{
 
 .navbar {
     clear:left;
-    margin-top: 5px;
+    padding:0%;
     background-color:rgb(58, 11, 11);
     overflow: hidden;
     
@@ -43,6 +43,10 @@ table{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: maroon;
 }
 
 .mainBody{
