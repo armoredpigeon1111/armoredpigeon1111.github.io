@@ -5,7 +5,9 @@ body {
     
 }
 
-
+div{
+    padding:15px;
+}
 
 
 
@@ -13,17 +15,24 @@ body {
 /*Classes*/
 
 .navbar {
-    background-color:dimgrey;
+    clear:left;
+    margin-top: 5px;
+    background-color:rgb(75, 35, 35);
     overflow: hidden;
+    
 }
 
 .navbar a {
-    float: left;
+    float:left;
     color:floralwhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.mainBody{
+    clear:left;
 }
 
 
@@ -34,14 +43,18 @@ body {
 
 /*ID's*/
 
+#titlebar{
+    padding:15px;
+}
 
+/*
 #me {
     float:left;
-}
+}*/
 
 #mainHeader {
     background-image: url('images/whiteMesh.jpg');
-    padding: 20px;
+    
 }
 
 #mainHeading {
