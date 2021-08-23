@@ -1,7 +1,8 @@
 /*Elements*/
 
 body {
-    color:black;
+    color:white;
+    background-image: url('images/blackPeak.jpg');
     
 }
 
@@ -9,6 +10,9 @@ div{
     padding:15px;
 }
 
+figure{
+    float:left;
+}
 
 
 
@@ -17,7 +21,7 @@ div{
 .navbar {
     clear:left;
     margin-top: 5px;
-    background-color:rgb(75, 35, 35);
+    background-color:rgb(58, 11, 11);
     overflow: hidden;
     
 }
@@ -36,7 +40,10 @@ div{
 }
 
 
-
+.portfolioPics {
+    text-align:center;
+    padding: 15px;
+}
 
 
 
@@ -52,9 +59,14 @@ div{
     float:left;
 }*/
 
+/*
 #mainHeader {
     background-image: url('images/whiteMesh.jpg');
     
+}*/
+
+#contact{
+    clear:left;
 }
 
 #mainHeading {
