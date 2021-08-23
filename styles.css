@@ -11,6 +11,7 @@ div{
 }
 
 figure{
+
     float:left;
 }
 
@@ -33,6 +34,8 @@ table{
     padding:0%;
     background-color:rgb(58, 11, 11);
     overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     
 }
 
@@ -54,30 +57,23 @@ table{
     background-image: url('images/whiteMesh.jpg');
 }
 
-/*
-.portfolioPics {
-    text-align:center;
-    
-}*/
-
-
 
 
 /*ID's*/
 
-#aboutMe{
-    float:left;
+#aboutMe p{
+    width:400px;
+    
 }
-
-
-
 
 #contact{
     clear:left;
 }
 
 #home{
-    
+    background-image: url('images/blueGreenGradient.jpg');
+    color:white;
+    border-radius: 25px;
 }
 
 #mainHeading {
@@ -87,4 +83,13 @@ table{
 
 #titlebar{
     padding:15px;
+}
+
+
+/*For small screens*/
+
+@media only screen and (max-width: 600px){
+    #aboutMe p{
+        width:auto;
+    }
 }
