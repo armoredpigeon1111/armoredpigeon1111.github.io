@@ -1,0 +1,50 @@
+/*Elements*/
+
+body {
+    color:black;
+    
+}
+
+
+
+
+
+
+/*Classes*/
+
+.navbar {
+    background-color:dimgrey;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color:floralwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+/*ID's*/
+
+
+#me {
+    float:left;
+}
+
+#mainHeader {
+    background-image: url('images/whiteMesh.jpg');
+    padding: 20px;
+}
+
+#mainHeading {
+    float:left;
+    padding-left: 15px;
+}
