@@ -34,22 +34,27 @@ table{
     text-align: left;
 }
 
+
 /*Classes*/
+.mainBody{
+    clear:left;
+    background-image: url('images/whiteMesh.jpg');
+    background-attachment: fixed;
+}
 
 .navbar {
     clear:left;
     padding:0%;
-    background-color:rgb(26, 104, 168);
+    background-color:rgb(201, 213, 223);
     overflow: hidden;
     border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    
-    
+    border-top-right-radius: 25px;  
 }
 
 .navbar a {
     float:left;
-    color:floralwhite;
+    color:rgb(12, 25, 204);
+    font-weight: 600;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -60,17 +65,11 @@ table{
     background-color: rgb(39, 196, 183);
 }
 
-.mainBody{
-    clear:left;
-    background-image: url('images/whiteMesh.jpg');
-    background-attachment: fixed;
-}
 
 
 
 /*ID's*/
-#aboutMe{
-    
+#aboutMe{  
     padding: 25px;
     margin:15px;
 }
@@ -83,8 +82,6 @@ table{
     margin:10px;
 }
 
-
-
 #aboutMeSVG img{
     width:400px;
     margin-left:205px;
@@ -96,7 +93,7 @@ table{
 }
 
 #home{
-    background-image: url('images/blueGreenGradient.jpg');
+    background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
     border-radius: 25px;
     margin:15px;
@@ -108,12 +105,11 @@ table{
 }
 
 #me{
-    float: left;
-   
+    float: left;  
 }
 
 #projects{
-    background-image: url('images/blueGreenGradient.jpg');  
+    background-image: url('images/blueGreenGradientShort.jpg');  
     border-radius: 25px;
     margin:15px;
     padding:10px;
@@ -126,6 +122,7 @@ table{
 
 #titlebar{
     padding:15px;
+    color:rgb(51, 18, 18);
 }
 
 
@@ -133,11 +130,8 @@ table{
 
 @media only screen and (max-width: 700px){
     .mainBody{
-
         background-attachment: fixed;
     }
- 
- 
  
     #aboutMeP{
         width:auto;
@@ -147,8 +141,7 @@ table{
         float:right;
         margin-left: auto;
         width:300px;
-        height:auto;
-        
+        height:auto;       
     }
 
     #projects{
