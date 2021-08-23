@@ -1,7 +1,7 @@
 /*Elements*/
 
 body {
-    color:white;
+    color:black;
     background-image: url('images/blackPeak.jpg');
     
 }
@@ -43,6 +43,7 @@ figcaption{
 
 .mainBody{
     clear:left;
+    background-image: url('images/whiteMesh.jpg');
 }
 
 /*
@@ -56,16 +57,26 @@ figcaption{
 
 /*ID's*/
 
-#titlebar{
-    padding:15px;
+#aboutMe{
+    float:left;
 }
+
+
 
 
 #contact{
     clear:left;
 }
 
+#home{
+    
+}
+
 #mainHeading {
     float:left;
     padding-left: 15px;
+}
+
+#titlebar{
+    padding:15px;
 }
