@@ -77,14 +77,16 @@ table{
 
 #aboutMeP{
     float:left;
-    width:600px;
+    width:500px;
     font-weight: 600;   
     padding: 15px; 
+    margin:10px;
 }
 
 
 
 #aboutMeSVG img{
+    width:400px;
     margin-left:205px;
 
 }
@@ -114,6 +116,7 @@ table{
     background-image: url('images/blueGreenGradient.jpg');  
     border-radius: 25px;
     margin:15px;
+    padding:10px;
     
 }
 
@@ -134,9 +137,17 @@ table{
     }
 
     #aboutMeSVG img{
-        clear: both;
-        width:200px;
+        float:right;
+        margin-left: auto;
+        width:300px;
         height:auto;
         
+    }
+
+    #projects{
+        clear:both;
+        border-radius: 25px;
+        margin:15px;
+        padding:10px;
     }
 }
