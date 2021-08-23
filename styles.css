@@ -3,6 +3,7 @@
 body {
     color:black;
     background-image: url('images/blackPeak.jpg');
+    background-attachment: fixed;
     
 }
 
@@ -16,7 +17,9 @@ figure{
 }
 
 figure img{
-    border-radius: 25px;
+    border-radius: 15px;
+    width: 100;
+    
 }
 
 figcaption{
@@ -36,10 +39,11 @@ table{
 .navbar {
     clear:left;
     padding:0%;
-    background-color:rgb(58, 11, 11);
+    background-color:rgb(26, 104, 168);
     overflow: hidden;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    
     
 }
 
@@ -53,29 +57,36 @@ table{
 }
 
 .navbar a:hover{
-    background-color: maroon;
+    background-color: rgb(39, 196, 183);
 }
 
 .mainBody{
     clear:left;
     background-image: url('images/whiteMesh.jpg');
+    background-attachment: fixed;
 }
 
 
 
 /*ID's*/
 #aboutMe{
-    background-image: url('images/marble.jpg');
-    border-radius: 25px;
+    
     padding: 25px;
     margin:15px;
 }
 
-#aboutMe p{
-    
+#aboutMeP{
+    float:left;
     width:600px;
-    font-weight: 600;
-    
+    font-weight: 600;   
+    padding: 15px; 
+}
+
+
+
+#aboutMeSVG img{
+    margin-left:205px;
+
 }
 
 #contact{
@@ -92,6 +103,11 @@ table{
 #mainHeading {
     float:left;
     padding-left: 15px;
+}
+
+#me{
+    float: left;
+   
 }
 
 #projects{
@@ -113,7 +129,14 @@ table{
 /*For small screens*/
 
 @media only screen and (max-width: 700px){
-    #aboutMe p{
+    #aboutMeP{
         width:auto;
+    }
+
+    #aboutMeSVG img{
+        clear: both;
+        width:200px;
+        height:auto;
+        
     }
 }
