@@ -121,6 +121,7 @@ table{
 #mainHeading {
     float:left;
     padding-left: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #me{
