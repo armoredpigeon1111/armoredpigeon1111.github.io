@@ -112,6 +112,7 @@ table{
 }
 
 #home{
+    text-align: center;
     background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
     border-radius: 15px;
