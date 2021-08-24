@@ -104,6 +104,10 @@ table{
     opacity: 0.9;
 }
 
+#contact a{
+    float:right;
+}
+
 #home{
     background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
