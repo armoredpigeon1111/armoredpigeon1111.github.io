@@ -13,6 +13,7 @@ div{
 
 figure{
     float:left;
+
     
 }
 
@@ -88,7 +89,7 @@ table{
 #aboutMeSVG img{
     width:400px;
     margin-left:205px;
-
+    opacity: 1;
 }
 
 #contact{
@@ -119,6 +120,7 @@ table{
 
 #me{
     float: left;  
+    
 }
 
 #projects{
