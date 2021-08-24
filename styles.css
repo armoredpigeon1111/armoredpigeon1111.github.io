@@ -45,9 +45,6 @@ table{
     background-attachment: fixed;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    animation-duration: 2s;
-    animation-name: slideinleft;
-    
 }
 
 .navbar {
