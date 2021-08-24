@@ -41,6 +41,7 @@ table{
     clear:left;
     background-image: url('images/whiteMesh.jpg');
     background-attachment: fixed;
+    
 }
 
 .navbar {
@@ -67,12 +68,12 @@ table{
 }
 
 
-
-
 /*ID's*/
 #aboutMe{  
     padding: 25px;
     margin:15px;
+    animation-duration: 2s;
+    animation-name: slideinleft;
 }
 
 #aboutMeP{
@@ -95,6 +96,8 @@ table{
     color:white;
     border-radius: 15px;
     margin:15px;
+    animation-duration: 2s;
+    animation-name: slideinleft;
 }
 
 #home{
@@ -102,6 +105,8 @@ table{
     color:white;
     border-radius: 15px;
     margin:15px;
+    animation-duration: 2s;
+    animation-name: slideinleft;
 }
 
 #mainHeading {
@@ -118,7 +123,8 @@ table{
     border-radius: 15px;
     margin:15px;
     padding:10px;
-    
+    animation-duration: 2s;
+    animation-name: slideinleft;
 }
 
 #projects h1{
@@ -129,6 +135,20 @@ table{
     padding:15px;
     color:rgb(51, 18, 18);
 }
+
+
+/*Animation instructions*/
+@keyframes slideinleft {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 /*For small screens*/
