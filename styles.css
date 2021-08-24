@@ -32,6 +32,7 @@ h2{
 
 table{
     text-align: left;
+    font-weight: 400;
 }
 
 
@@ -90,12 +91,16 @@ table{
 
 #contact{
     clear:left;
+    background-image: url('images/blueGreenGradientShort.jpg');
+    color:white;
+    border-radius: 15px;
+    margin:15px;
 }
 
 #home{
     background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
-    border-radius: 25px;
+    border-radius: 15px;
     margin:15px;
 }
 
@@ -110,7 +115,7 @@ table{
 
 #projects{
     background-image: url('images/blueGreenGradientShort.jpg');  
-    border-radius: 25px;
+    border-radius: 15px;
     margin:15px;
     padding:10px;
     
