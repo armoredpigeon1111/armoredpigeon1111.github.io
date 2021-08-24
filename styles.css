@@ -109,6 +109,10 @@ table{
     float:right;
 }
 
+#gifs{
+    text-align: center;
+}
+
 #home{
     background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
@@ -117,6 +121,11 @@ table{
     animation-duration: 2s;
     animation-name: slideinleft;
     opacity: 0.9;
+}
+
+#home img{
+    border-radius: 15px;
+    margin:25px;
 }
 
 #mainHeading {
@@ -188,6 +197,10 @@ table{
         border-radius: 25px;
         margin:15px;
         padding:10px;
+    }
+
+    #home img{
+        width:100px;
     }
 
     table{
