@@ -42,6 +42,8 @@ table{
     clear:left;
     background-image: url('images/whiteMesh.jpg');
     background-attachment: fixed;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     
 }
 
@@ -97,7 +99,6 @@ table{
     background-image: url('images/blueGreenGradientShort.jpg');
     color:white;
     border-radius: 15px;
-    margin:15px;
     animation-duration: 2s;
     animation-name: slideinleft;
     opacity: 0.9;
