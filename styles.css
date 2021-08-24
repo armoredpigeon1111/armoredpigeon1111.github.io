@@ -34,6 +34,7 @@ h2{
 table{
     text-align: left;
     font-weight: 400;
+    font-size: 25px;
 }
 
 
@@ -44,6 +45,8 @@ table{
     background-attachment: fixed;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    animation-duration: 2s;
+    animation-name: slideinleft;
     
 }
 
@@ -187,5 +190,9 @@ table{
         border-radius: 25px;
         margin:15px;
         padding:10px;
+    }
+
+    table{
+        font-size: 25px;
     }
 }
